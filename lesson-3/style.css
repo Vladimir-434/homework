@@ -1,0 +1,17 @@
+.header {
+    height: 60px;
+background-color: burlywood;
+}
+
+.citation {
+    background-color: khaki;
+}
+.footer {
+    height: 300px;
+    background-color: cadetblue;
+    color: #fff;
+}
+footer,
+a {
+    color: #fff;
+}
