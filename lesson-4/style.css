@@ -1,0 +1,30 @@
+.text_Open-sans {
+    font-family: 'Open-Sans', 'serif';
+    font-weight: 300;
+    font-style:italic;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.crossed_text {
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.uppercase_text {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-style {
+    color: brown;
+    word-spacing: 30px;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+    text-decoration-line:overline;
+}
+
+.text-style-2 {
+    letter-spacing: 5px;
+    text-decoration: underline 5px gold;
+}
