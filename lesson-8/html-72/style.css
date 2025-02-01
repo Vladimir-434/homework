@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    margin: 50% auto;
+    width: 1400px;
+    height: 100%;
+}
+
+.box {
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #a07979;
+    text-align: center;
+    color: #a07979;
+    transition-delay: 3s;
+
+}
+
+.box:hover {
+    /* content: 'успех'; */
+    color: rgb(7, 25, 41);
+
+}
+
+.block {
+    width: 1px;
+    /* height: 150px; */
+}
+
+.absolute {
+    position: absolute;
+    background-color: aliceblue;
+    transform: translate(-5px, -70px);
+    /* width: 200px; */
+    height: 20px;
+}
+
+.block {
+    transition-duration: 3s;
+}
+
+.box:hover .block {
+    width: 300px;
+}

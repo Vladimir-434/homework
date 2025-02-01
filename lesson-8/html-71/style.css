@@ -1,0 +1,39 @@
+body {
+    background-color: cadetblue;
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+
+}
+
+.title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    transform: translateX(695%);
+    /* left: 30%; */
+}
+
+.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(83, 42, 165);
+    border: 5px solid #fff;
+    border-radius: 100%;
+    transform: translate(1230%, -73%);
+}
