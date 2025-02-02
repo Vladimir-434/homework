@@ -1,0 +1,44 @@
+body {
+    background-color: cadetblue;
+}
+
+.title {
+    height: 20px;
+    padding: 0 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100%;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    right: 100%;
+
+}
+
+.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(83, 42, 165);
+    border: 5px solid #fff;
+    border-radius: 100%;
+    left: 100%;
+    top: 0;
+}
