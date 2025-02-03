@@ -46,10 +46,7 @@ body {
 
 /* ================== Выполнение дз ниже =================== */
 
-.box:hover .box__scale {
-    transition: 3s;
-}
-
-.box:hover span {
-    transition-delay: 3s;
+.box span,
+.box__scale {
+    transition: 1s;
 }
