@@ -90,11 +90,11 @@ body {
 }
 
 .hero__list-item:hover {
-    color: var(--accent-text)
+    color: var(--accent-text);
 }
 
 .hero__list-item:hover path {
-    fill: var(--accent-text)
+    fill: var(--accent-text);
 }
 
 .hero__list-item:last-child {
@@ -200,7 +200,7 @@ body {
     grid-auto-flow: dense;
     font-weight: 500;
     line-height: 20px;
-    color: var(--white-textt)
+    color: var(--white-text);
 }
 
 .gallery__img--large-left {
