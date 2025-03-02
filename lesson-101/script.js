@@ -4,39 +4,32 @@ function logHello(logHello) {
 }
 logHello('Hello')
 // ====================2============================
-const numbers = [2, 4, 8, 16]
-function sum(numbers) {
-    for (let i = 0; i < numbers.length; i++) {
-        if (i <= numbers) {
-            return `привет ${numbers}`
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+function myFunction(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > 10) {
+            console.log(array[i])
         }
     }
-    return 'пока'
 }
-console.log(sum(numbers, 16))
+myFunction(numbers)
 
 //===================================3=======================================
 
-function sum(onceNumber, twoNumber, logText) {
-    return onceNumber + twoNumber + logText
+const calc = (num1, num2, operator) => {
+    switch (operator) {
+        case '+':
+            return num1 + num2;
+        case '-':
+            return num1 - num2;
+        case '/':
+            return num1 / num2;
+        case '*':
+            return num1 * num2;
+    }
 }
-const result = sum(1, 5, ' Text')
-console.log(result)
 
-function twoSum(onceNumber, twoNumber, logText) {
-    return onceNumber - twoNumber - logText
-}
-const twoResult = twoSum(10, 55, +'100')
-console.log(twoResult)
-
-function threeSum(onceNumber, twoNumber, logText) {
-    return onceNumber * twoNumber + logText
-}
-const threeResult = threeSum(10, 55, '   100')
-console.log(threeResult)
-
-function fourSum(onceNumber, twoNumber, logText) {
-    return onceNumber / twoNumber + logText
-}
-const fourResult = fourSum(10, 5, '  hello')
-console.log(fourResult)
+console.log(calc(1, 2, '+'));
+console.log(calc(5, 7, '*'));
+console.log(calc(81, 9, '/'));
+console.log(calc(5, 17, '-'));
