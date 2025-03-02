@@ -35,5 +35,7 @@ const user = [
     }
 ]
 for (let i = 0; i < user.length; i++) {
-    console.log(user[i].name)
-}
+    if (user[i] !== 'isAdmin') {
+        console.log('user[i]'.name)
+    }
+} 
