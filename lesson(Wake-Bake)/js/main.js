@@ -108,4 +108,34 @@
 
     });
 
+    // Слайдер-галерея
+
+    const swiper = new Swiper('.gallery__slider', {
+
+        spaceBetween: 32,
+        slidesPerView: 4,
+
+        pagination: {
+            el: '.gallery__pagination',
+            type: 'fraction',
+        },
+
+        navigation: {
+            nextEl: '.gallery__next',
+            prevEl: '.gallery__prev',
+        },
+
+        breakpoints: {
+            601: {
+                slidesPerView: 3,
+            },
+            801: {
+                spaceBetween: 32,
+            },
+            1101: {
+                slidesPerView: 4,
+            }
+        }
+    });
+
 })()
