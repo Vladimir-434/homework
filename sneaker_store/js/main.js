@@ -19,13 +19,29 @@ new Swiper('.main__swiper', {
 // слайдер 2=============================================================================
 
 new Swiper('.sellers__swiper', {
-    slidesPerView: 5,
-    spaceBetween: 15,
+    slidesPerView: 4,
+    spaceBetween: 40,
     loop: true,
 
     navigation: {
-        nextEl: 'sellers__next',
-        prevEl: 'sellers__prev',
+        nextEl: '.sellers__next',
+        prevEl: '.sellers__prev',
     },
+    breakpoints: {
+
+        310: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        601: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+
+        1051: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+        }
+    }
 });
 
